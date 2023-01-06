@@ -1,0 +1,21 @@
+{
+  "name": "transcriptaudiobot",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Telegram bot project that transcribe audio into text",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "theodj97",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/speech": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "fluent-ffmpeg": "^2.1.2",
+    "node-telegram-bot-api": "^0.60.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
