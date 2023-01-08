@@ -8,7 +8,7 @@ dotenv.config();
 // Telegram Bot Token
 const telegramBotToken = process.env.TELEGRAM_BOT_TOKEN;
 // Select your json Google Cloud Server credentials file.
-const GCloudCredentials = JSON.parse(fileSinc.readFileSync('./turing-micron-373823-85350f399d44.json'));
+const GCloudCredentials = JSON.parse(fileSinc.readFileSync('./GoogleCredentials/turing-micron-373823-3c53d7721091.json'));
 const bot = new TelegramBot(telegramBotToken, { polling: true });
 const speechClient = new SpeechClient({
     credentials: GCloudCredentials,
